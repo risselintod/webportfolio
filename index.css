@@ -1,0 +1,43 @@
+* {
+	font-family: 'Libre Baskerville', sans-serif;
+/*	color: black !important;*/
+}
+
+body {
+	scroll-behavior: smooth;
+    background-color: linear-gradient(
+        to right, black 10%, brown 50%, white 80%
+    );
+}
+
+#landing, #tools {
+/*	background-color: #ADD8E6;*/
+	background-color: #FFDB58;
+}
+
+.div-landing {
+    height: 100vh;
+    padding-top: 10%;
+}
+
+#navbar {
+/*    background-color: lightgrey !important;*/
+    background-color: black !important;
+/*    color: white !important;*/
+}
+
+/*.card-title {
+	color: blue !important;
+}
+
+.card-text {
+	color: blue !important;
+}*/
+
+.btn-submit {
+	border-radius: 0.5rem !important;
+}
+
+.footer {
+	background-color: black;
+}

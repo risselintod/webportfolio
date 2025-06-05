@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Developer Portfolio</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top" id="navbar">
+		<div class="container">
+			<!-- <a class="navbar-brand " href="#landing" id="logo">
+				<img id="logo" src="./images/logo.png" width="50" height="55">
+			</a> -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<a href="#landing">
+					<img class="rounded-circle" src="./images/me.jpg" width="30" height="30">
+				</a>
+				<div class="navbar-nav ms-auto">
+					<a class="nav-link mx-3 text-white active" href="#landing">Home</a>
+					<a class="nav-link mx-3 text-white" href="#projects">My Projects</a>
+					<a class="nav-link mx-3 text-white" href="#tools">Tools</a>
+					<a class="nav-link mx-3 text-white" href="#contact">Contact</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<section id="landing" class="container-fluid py-5 my-5 h-100">
+		<div class="row div-landing">
+			<div class="col-sm-12 col-md-5 col-lg-5 float-right px-5">
+				<img class="float-end rounded-circle" width="300" src="./images/me.jpg">
+			</div>
+
+			<div class="col-sm-12 col-md-6 col-lg-6">
+				<h1>Rissel Intod</h1>
+				<h4>Full Stack Web Developer</h4>
+				<p class="py-3 text-justify">
+					I'm Rissel Intod, a dedicated and adaptable professional with a passion for continuous learning and creative problem-solving. With a strong foundation in web development, design, marketing, I thrive in collaborative environments and enjoy turning ideas into impactful results. Whether working independently or as part of a team, I bring a positive attitude, a detail-oriented mindset, and a commitment to delivering high-quality work.
+				</p>
+			</div>
+		</div>			
+	</section>
+
+	<section id="projects" class="container d-flex justify-content-center flex-wrap gap-5">
+		<div class="row py-3">
+			<h1 class="text-center my-5">My Projects</h1>
+			<div class="col-col-10 sm-6 col-md-4 col-lg-4 my-5 my-md-0">
+				<div class="card h-100 shadow p-4">
+					<img height="210" src="./images/APIdocs.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title py-2">E-commerce API Documentation</h5>
+						<p class="card-text">Dynamic E-Commercce Workflow Management. Theb system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management. Documented Backend API published publicly using Postman.</p>
+					</div>
+				</div>	
+			</div>
+
+			<div class="col-10 col-sm-6 col-md-4 col-lg-4">
+				<div class="card h-100 shadow p-4">
+					<img height="210" src="./images/booking.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title py-2">Course Booking API Documentation</h5>
+						<p class="card-text">RESTful API for managing course enrollments, featuring user registration, authentication, and retrieval of user, updates, archiving, activation, and student enrollment. Publicly documented using Postman.</p>
+					</div>
+				</div>	
+			</div>
+
+			<div class="col-10 col-sm-6 col-md-4 col-lg-4">
+				<div class="card h-100 shadow p-4">
+					<img height="210" src="./images/CourseBookingApp.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title py-2">Course Booking App</h5>
+						<p class="card-text">
+							A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allows users to browse available courses and enroll seamlessly.
+						</p>
+					</div>
+				</div>	
+			</div>
+		</div>	
+
+		<div class="row">
+			<div class="col-10 col-sm-6 col-md-4 col-lg-4">
+				<div class="card h-100 shadow p-4">
+					<img height="210" src="./images/EcommerceApp.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title py-2">E-commerce App</h5>
+						<p class="card-text">
+							MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.
+						</p>
+					</div>
+				</div>	
+			</div>
+
+			<div class="col-10 col-sm-6 col-md-4 col-lg-4">
+				<div class="card h-100 shadow p-4">
+					<img height="210" src="./images/AirlineBookingSystemMockup.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title py-2">Airline Booking System Mockup</h5>
+						<p class="card-text">Side Project: Conceptual design showcasing an intuitive UI for flight search, seat selection, and booking confirmation, focusing on user experience and workflow efficiency.</p>
+					</div>
+				</div>	
+			</div>
+
+			<div class="col-10 col-sm-6 col-md-4 col-lg-4">
+				<div class="card h-100 shadow p-4">
+					<img height="210" src="./images/AirlineBookingSystemPrototype.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title py-2">Airline Booking System Prototype</h5>
+						<p class="card-text">Side Project: Interactive prototype simulating end-to-end airline booking functionalities, including flight search, reservation, payment processing, and real-time ticket management.</p>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="row pt-2 pb-5">
+			<div class="col-10 col-sm-6 col-md-4 col-lg-4">
+				<div class="card h-100 shadow p-4">
+					<img height="210" src="./images/capstone1.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title py-2">Short Courses Capstone</h5>
+						<p class="card-text">Some uick example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+				</div>	
+			</div>
+
+			<div class="col-10 col-sm-6 col-md-4 col-lg-4">
+				<div class="card h-100 shadow p-4">
+					<img height="210" src="./images/capstone3.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title py-2">Short Courses Capstone</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+				</div>	
+			</div>
+
+			<div class="col-10 col-sm-6 col-md-4 col-lg-4">
+				<div class="card h-100 shadow p-4">
+					<img height="210" src="./images/capstone2.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title py-2">Short Courses Capstone</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+				</div>	
+			</div>
+		</div>			
+	</section>
+
+	<section id="tools" class="container-fluid p-5 justify-content-center d-flex flex-wrap text-center">
+		<div class="row p-4">
+			<h1 class="p-5">Tools</h1>
+			<div class="col-10 col-sm-6 col-md-4 col-lg-4">
+				<h4 class="p-2">Front Ed</h4>
+				<img class="my-2" src="./images/html.png" width="120" height="100">
+				<img class="my-2" src="./images/css.png" width="240" height="110">
+				<img class="my-2 float-start" src="./images/bootstrap.png" width="110" height="100">
+				<img class="my-2" src="./images/javascript.png" width="100" height="100">
+			</div>
+
+			<div class="col-10 col-sm-6 col-md-4 col-lg-4">
+				<h4 class="p-2">MERN</h4>
+				<img class="my-2" src="./images/css.png" width="180" height="100">
+				<img class="my-2" src="./images/css.png" width="180" height="100">
+				<img class="my-2" src="./images/css.png" width="180" height="100">
+				<img class="my-2" src="./images/css.png" width="180" height="100">
+			</div>
+
+			<div class="col-10 col-sm-6 col-md-4 col-lg-4">
+				<h4 class="p-2">Other Tools</h4>
+				<img class="my-2" src="./images/css.png" width="180" height="100">
+				<img class="my-2" src="./images/css.png" width="180" height="100">
+				<img class="my-2" src="./images/css.png" width="180" height="100">
+				<img class="my-2" src="./images/css.png" width="180" height="100">
+			</div>
+		</div>			
+	</section>
+
+	<section id="contact" class="container-fluid p-5 text-center">
+		<div class="row px-5 gx-5">
+			<h1 class="p-3 my-2">Contact</h1>
+			<div class="col-10 col-sm-6 col-md-6 col-lg-6">
+				<div style="position: relative;"><div style="position: relative; padding-bottom: 75%; height: 0; overflow: hidden;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" loading="lazy" allowfullscreen src="https://maps.google.com/maps?q=punta+flecha+pitogo+zamboange+del+sur&output=embed"></iframe></div><a href="https://www.ohiovalleyeats.com/" rel="noopener" target="_blank" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;">ohiovalleyeats.com</a></div>
+			</div>
+
+			<div class="col-10 col-sm-6 col-md-6 col-lg-6">
+				<form>
+					<div class="mb-3">
+						<input type="text" class="form-control" id="name" placeholder="First Name M.I. Last Name">
+					</div>
+
+					<div class="mb-3">
+						<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+					</div>
+
+					<div class="mb-3">
+						<textarea type="text" class="form-control" rows="10" name="message" id="message" placeholder="Message"></textarea>
+					</div>
+
+					<div class="float-start">
+						<a href="" target="#">
+							<img src="./images/gitlab.png" width="30" class="mx-3">
+						</a>
+						<a href="https://gitlab.com/rissel_intod" target="#">
+							<img src="./images/gitlab.png" width="30" class="mx-3">
+						</a>
+						<a href="https://github.com/risselintod" target="#">
+							<img src="./images/gitlab.png" width="30" class="mx-3">
+					</div>
+
+					<button type="submit" class="btn btn-primary text-white float-end btn-submit">Submit</button>
+				</form>
+				
+			</div>
+		</div>			
+	</section>
+
+	<footer class="footer py-2">
+		<div class="container my-2 text-center">
+			<p>Rissel Intod</p>
+			<p>Full Stack Web Developer</p>
+			<p>&#169; All Rights Reserved 2025</p>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
